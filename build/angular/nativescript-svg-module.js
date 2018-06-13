@@ -15,4 +15,4 @@ var NativeScriptSvgModule = (function () {
     return NativeScriptSvgModule;
 }());
 exports.NativeScriptSvgModule = NativeScriptSvgModule;
-element_registry_1.registerElement("SVGImage", function () { return require("../").SVGImage; });
+element_registry_1.registerElement("SVGImage", function () { return require("../svg").SVGImage; });

@@ -9,4 +9,4 @@ import { DIRECTIVES } from "./nativescript-svg-directives";
 })
 export class NativeScriptSvgModule { }
 
-registerElement("SVGImage", () => require("../").SVGImage);
+registerElement("SVGImage", () => require("../svg").SVGImage);
