@@ -1,6 +1,7 @@
+.idea
 src/*.js
 src/*.js.map
-src/node_modules
+node_modules
 demo/*.d.ts
 demo/platforms
 demo/node_modules
